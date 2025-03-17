@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.activities {
+    background-color: #f8f9fa; /* Light background for activities section */
+}
+
+.contact {
+    background-color: green;
+    color: white;
+}
+
+.btn-custom {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
