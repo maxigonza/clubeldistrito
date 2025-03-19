@@ -13,22 +13,79 @@
         <p>Un lugar para el deporte, el arte y la socialización</p>
     </header>
 
-    <section id="about" class="text-center py-5">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #19722e;">
         <div class="container">
-            <h2>Sobre Nosotros</h2>
-            <p>El Club El Distrito es un club social y deportivo que ofrece diversas actividades para todos los miembros de la comunidad. Nuestro objetivo es fomentar el deporte, la amistad y el bienestar.</p>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#club">El Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#activities">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acceso Socios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="club" class="text-center py-5">
+        <div class="container">
+            <h2>El Club</h2>
+            <p>El Club El Distrito es un lugar donde la comunidad se reúne para disfrutar de diversas actividades deportivas y sociales.</p>
+            <div id="clubCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/imagen1.webp" class="d-block w-100" alt="El Club 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagen2.webp" class="d-block w-100" alt="El Club 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/imagen3.webp" class="d-block w-100" alt="El Club 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#clubCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#clubCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
         </div>
     </section>
 
     <section id="activities" class="bg-light text-center py-5">
         <div class="container">
             <h2>Actividades</h2>
-            <ul class="list-unstyled">
-                <li>Fútbol</li>
-                <li>Artes</li>
-                <li>Gimnasia</li>
-                <li>Eventos Sociales</li>
-            </ul>
+            <p>Ofrecemos una variedad de actividades para todos los gustos y edades.</p>
+            <img src="img/activities.jpg" alt="Actividades" class="img-fluid">
+        </div>
+    </section>
+
+    <section id="news" class="text-center py-5">
+        <div class="container">
+            <h2>Novedades</h2>
+            <p>Mantente al día con las últimas noticias y eventos del club.</p>
+            <img src="img/news.jpg" alt="Novedades" class="img-fluid">
+        </div>
+    </section>
+
+    <section id="about" class="text-center py-5">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>El Club El Distrito es un club social y deportivo que ofrece diversas actividades para todos los miembros de la comunidad. Nuestro objetivo es fomentar el deporte, la amistad y el bienestar.</p>
+            <img src="img/about.jpg" alt="Nosotros" class="img-fluid">
         </div>
     </section>
 
